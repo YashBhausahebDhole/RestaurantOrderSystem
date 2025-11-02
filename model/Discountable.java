@@ -1,9 +1,6 @@
 package restaurant.model;
 
-/**
- * Interface showing use of default, static, and private methods.
- * Each MenuItem can define its own discount logic.
- */
+
 public interface Discountable {
     double applyDiscount(double price); // abstract method
 
